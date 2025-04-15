@@ -27,7 +27,15 @@ Bonding interface `bond0`consists of two members `eno1, eno2`
 Bridge interface `vmbr0` is used for management and workload traffic  
 ![image](https://github.com/user-attachments/assets/345a7345-547b-43fc-aea5-3ee5b36fd5d7)  
 *Due to limited hardware resources, the lab environment will use `vmbr0` for all purposes (management, storage synchronization, northbound,...). For production environment, these components should be separated where possible.*  
-### Provision VMs for Kubernetes cluster with Talos Linux
+### Provision VMs for Kubernetes cluster with Talos Linux  
+For this lab, I have following VMs created:  
+**Control Plane**
+```
+talos-cp-ovn-01 
+talos-cp-ovn-02
+talos-cp-ovn-03
+```
+
 
 
 
