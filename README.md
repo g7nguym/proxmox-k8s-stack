@@ -5,7 +5,7 @@
 - Talos Linux (Kubernetes Cluster will be running on Talos Linux)
 
 ### Test Hardware List
-**03 HPE DL380 Servers with **
+**03 HPE DL380 Servers with**
 - OS boot disk in RAID 1
 - Data disk in RAID 10
 - Dual port 1Gbps (10Gbps is recommended for production)
