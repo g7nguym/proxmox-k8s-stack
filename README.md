@@ -25,6 +25,7 @@ Bonding interface `bond0`consists of two members `eno1, eno2`
 ![image](https://github.com/user-attachments/assets/41048945-ea45-4269-aa6b-728773f18af3)  
 Bridge interface `vmbr0` is used for management and workload traffic  
 ![image](https://github.com/user-attachments/assets/345a7345-547b-43fc-aea5-3ee5b36fd5d7)  
+*Due to limited hardware resources, the lab environment will use `vmbr0` for all purposes (management, storage synchronization, northbound,...). For production environment, these components should be separated where possible.*
 
 
 
