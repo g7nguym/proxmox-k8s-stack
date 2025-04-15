@@ -1,4 +1,4 @@
-** ** In this repo, I want to build a fully functional HCI (Hyper Converged Infrastructure) based on:
+**In this repo, I want to build a fully functional HCI (Hyper Converged Infrastructure) based on:**
 
 Proxmox (Compute)
 
