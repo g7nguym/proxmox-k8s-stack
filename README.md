@@ -16,3 +16,5 @@
 - Linstor 1.31.0
 - Talos Linux 1.9.5
 - Kubernetes 1.32.3
+### Proxmox Installation
+You can follow Proxmox installation documentation at https://www.proxmox.com/en/products/proxmox-virtual-environment/get-started
