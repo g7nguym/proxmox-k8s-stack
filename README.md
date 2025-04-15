@@ -21,7 +21,9 @@ You can follow Proxmox installation documentation at https://www.proxmox.com/en/
 In this demo, Proxmox is installed on `/dev/sda`  
 Following network configuration is done on all nodes  
 *Note: for the lab setup, I only use active-backup mode. For production, LACP is recommended.*  
-![image](https://github.com/user-attachments/assets/41048945-ea45-4269-aa6b-728773f18af3)
+Bonding interface consists of two members `eno1, eno2`  
+![image](https://github.com/user-attachments/assets/41048945-ea45-4269-aa6b-728773f18af3) ![image](https://github.com/user-attachments/assets/345a7345-547b-43fc-aea5-3ee5b36fd5d7)
+
 
 
 
