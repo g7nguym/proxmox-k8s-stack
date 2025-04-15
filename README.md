@@ -23,7 +23,7 @@ drbd
 qemu-guest-agent
 ``
 You can use the link: https://factory.talos.dev/ to generate the iso with needed extensions.  It is very straightforward.  
-## Part 1: Proxmox Setup    
+## Part 1: Proxmox and Linstor Setup    
 ### Proxmox Installation
 You can follow Proxmox installation documentation at https://www.proxmox.com/en/products/proxmox-virtual-environment/get-started  
 In this demo, Proxmox is installed on `/dev/sda`  
@@ -34,6 +34,9 @@ Bonding interface `bond0`consists of two members `eno1, eno2`
 Bridge interface `vmbr0` is used for management and workload traffic  
 ![image](https://github.com/user-attachments/assets/345a7345-547b-43fc-aea5-3ee5b36fd5d7)  
 *Due to limited hardware resources, the lab environment will use `vmbr0` for all purposes (management, storage synchronization, northbound,...). For production environment, these components should be separated where possible.*  
+### Linstor Installation  
+
+
 ### Provision VMs for Kubernetes cluster with Talos Linux  
 For this lab, I have following VMs created:  
 **Control Plane**  
