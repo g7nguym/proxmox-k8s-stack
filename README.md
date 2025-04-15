@@ -18,7 +18,7 @@
 - Kubernetes 1.32.3
 ### Proxmox Installation
 You can follow Proxmox installation documentation at https://www.proxmox.com/en/products/proxmox-virtual-environment/get-started
-In this demo, Proxmox is installed on `/dev/sda`
+In this demo, Proxmox is installed on `/dev/sda`  
 Following network configuration is done on all nodes  
 ![image](https://github.com/user-attachments/assets/41048945-ea45-4269-aa6b-728773f18af3)
 
