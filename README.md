@@ -1,5 +1,7 @@
-# proxmox-k8s-stack
+In this repo, I want to build a fully functional HCI (Hyper Converged Infrastructure) based on:
 
-Purpose
+Proxmox (Compute)
 
-In this repo, I want to build a fully functional stack to host both VM and containers workload using Proxmox. Shared storage will be provided by Linstor
+Linstor (Software Defined Storage)
+
+Talos Linux (Kubernetes Cluster will be running on Talos Linux)
