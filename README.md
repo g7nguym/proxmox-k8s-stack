@@ -19,7 +19,7 @@
 ### Preparation
 For Talos Linux iso file, it needs to have following system extensions created
 ``
-drbd
+drbd  
 qemu-guest-agent
 ``
 You can use the link: https://factory.talos.dev/ to generate the iso with needed extensions.  It is very straightforward.  
