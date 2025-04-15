@@ -36,7 +36,7 @@ Bridge interface `vmbr0` is used for management and workload traffic
 *Due to limited hardware resources, the lab environment will use `vmbr0` for all purposes (management, storage synchronization, northbound,...). For production environment, these components should be separated where possible.*  
 ### Provision VMs for Kubernetes cluster with Talos Linux  
 For this lab, I have following VMs created:  
-**Control Plane**
+**Control Plane**  
 ![image](https://github.com/user-attachments/assets/5bdd8b06-0979-4051-ac1d-aba337ca6ea1)
 
 ```
@@ -44,7 +44,8 @@ talos-cp-ovn-01
 talos-cp-ovn-02
 talos-cp-ovn-03
 ```
-**Worker Nodes**
+**Worker Nodes**  
+![image](https://github.com/user-attachments/assets/fab8cdcf-3216-44fa-b692-6f20014a2327)
 
 ```
 talos-wk-ovn-01
