@@ -9,3 +9,9 @@
 - OS boot disk in RAID 1
 - Data disk in RAID 10
 - Dual port 1Gbps (10Gbps is recommended for production)
+### Software Versions
+**At the time of this writing, the following softwares are used for this demo**
+- Proxmox 8.4.1
+- Linstor 1.31.0
+- Talos Linux 1.9.5
+- Kubernetes 1.32.3
